@@ -1,0 +1,54 @@
+.container{
+  width:1100px;
+  margin:0px auto;
+}
+.col-1{
+width: 30%;
+  background-image: url(https://i.imgur.com/qgvyXKb.jpg);
+  background-size: cover;
+}
+.menu{
+  margin:70px 0px;
+}
+.menulist a{
+  font-size:40px;
+  color:#FFF;
+  text-decoration:none;
+  display:block;
+}
+.content{
+  width:700px;
+}
+.content p{
+  margin-bottom:20px;
+  color:grey;
+  font-size:35px;
+}
+.content .textArea{
+  font-size:25px;
+  margin-bottom:10px;
+}
+.content .text{
+  font-size:15px;
+  margin-bottom:20px;
+}
+.img{
+  width:100%;
+}
+.col-row-center{
+  display:flex;
+  justify-content:center;
+}
+.col-row-between{
+  display:flex;
+  justify-content:space-between;
+}
+.col-column-center{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.col-row-wrap{
+  dispaly:flex;
+  wrap:flex-wrap;
+}
